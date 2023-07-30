@@ -35,17 +35,27 @@ import {
               key: "/",
             },
             {
-              label: "Inventory",
+              label: "Product",
               key: "/inventory",
               icon: <ShopOutlined />,
             },
             {
-              label: "Orders",
+              label: "Store",
               key: "/orders",
               icon: <ShoppingCartOutlined />,
             },
             {
-              label: "Customers",
+              label: "Visitors",
+              key: "/customers",
+              icon: <UserOutlined />,
+            },
+            {
+              label: "Analytics",
+              key: "/customers",
+              icon: <UserOutlined />,
+            },
+            {
+              label: "Notification",
               key: "/customers",
               icon: <UserOutlined />,
             },
