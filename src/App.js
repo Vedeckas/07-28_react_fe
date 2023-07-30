@@ -1,19 +1,20 @@
-import React, { useState } from 'react';
-import SideMenu from './SideMenu';
+// import { Space } from "antd";
+import "./App.css";
+import AppFooter from "./Components/AppFooter";
+import AppHeader from "./Components/AppHeader";
+import PageContent from "./Components/PageContent";
+import SideMenu from "./Components/SideMenu";
 
-const App = () => {
-  const [isSideMenuOpen, setIsSideMenuOpen] = useState(false);
-
-  const handleSideMenuToggle = () => {
-    setIsSideMenuOpen((prevOpen) => !prevOpen);
-  };
-
+function App() {
   return (
-    <div>
-      <button onClick={handleSideMenuToggle}>Atidaryti šoninį meniu</button>
-      <SideMenu open={isSideMenuOpen} onClose={handleSideMenuToggle} />
+    <div className="App">
+      <AppHeader />
+      {/* <Space> */}
+        <SideMenu></SideMenu>
+        <PageContent></PageContent>
+      {/* </Space> */}
+      <AppFooter />
     </div>
   );
-};
-
+}
 export default App;
