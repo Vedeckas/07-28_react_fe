@@ -12,7 +12,7 @@
   padding: 4px 20px 4px 12px;
   border-bottom: 1px solid rgba(0, 0, 0, 0.15);
 }
-/* .AppFooter{
+.AppFooter{
 height: 50px;
 display: flex;
 justify-content: space-evenly;
@@ -35,4 +35,4 @@ border-top: 1px solid rgba(0, 0, 0, 0.15);
 }
 .PageContent{
   padding-left: 12px;
-} */
+}
